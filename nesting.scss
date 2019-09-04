@@ -1,0 +1,21 @@
+$myFont: Helvetica, sans-serif;
+$myPrimaryColor: #333;
+$mySecondaryColor: #777;
+$border: $myPrimaryColor;
+
+body {
+    font: 100% $myFont;
+    color: $myPrimaryColor;
+}
+
+div{
+    p {
+        a {
+            color: $mySecondaryColor;
+        }
+        h1 {
+            color: blue;
+        }
+    }
+
+}
